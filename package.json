@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://val-alexeev.github.io/recipe-app/",
   "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^5.5.0",
     "@testing-library/react": "^10.0.4",
@@ -15,11 +18,8 @@
     "jest-enzyme": "^7.1.2",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "4.0.3",
     "redux": "^4.0.5",
     "redux-actions": "^2.6.5",
     "redux-saga": "^1.1.3",
@@ -33,11 +33,9 @@
     ]
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

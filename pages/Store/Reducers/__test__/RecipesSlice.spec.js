@@ -1,4 +1,4 @@
-import slice, { setRecipes, setRecentSearches } from "../recipesSlice";
+import { setRecipes, setRecentSearches } from "../recipesSlice";
 
 describe("(reducer) recipesSlice", () => {
   it("setRecipes", () => {
